@@ -1,0 +1,29 @@
+header{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--cinza-escuro);
+    font-size: 1.2rem;
+    padding: 30px;
+}
+
+.header__logo{
+    color: var(--branco);
+}
+
+.nav{
+    display: flex;
+}
+
+li:nth-child(4){
+    padding: .625rem 0 .625rem 1.25rem;
+    margin-left: 1.25rem;
+}
+
+.nav__item--link{
+    text-decoration: none;
+    color: var(--branco);
+    margin-left: 1.25rem;
+    padding: .625rem 1.25rem;
+}

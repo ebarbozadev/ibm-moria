@@ -1,0 +1,7 @@
+@import url(reset.css);
+@import url(header/header.css);
+
+:root {
+    --branco: #ffffff;
+    --cinza-escuro: #1b1b1b;
+}
