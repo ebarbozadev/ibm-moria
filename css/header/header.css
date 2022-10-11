@@ -16,14 +16,14 @@ header{
     display: flex;
 }
 
-li:nth-child(4){
-    padding: .625rem 0 .625rem 1.25rem;
-    margin-left: 1.25rem;
-}
-
 .nav__item--link{
     text-decoration: none;
     color: var(--branco);
     margin-left: 1.25rem;
     padding: .625rem 1.25rem;
+}
+
+.item__link--last{
+    padding-right: 0;
+    margin-right: 0;
 }
