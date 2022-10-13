@@ -1,0 +1,15 @@
+main{
+    background-color: var(--cinza-escuro);
+    width: 100%;
+    height: 100vh;
+    vertical-align: middle;
+    display: flex;
+}
+
+.main__conteudo{
+    margin: auto auto;
+    width: 90%;
+    height: 600px;
+    background-color: var(--fundo-beta);
+    box-shadow: var(--box-shadow);
+}

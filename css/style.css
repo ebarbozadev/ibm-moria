@@ -1,7 +1,11 @@
 @import url(reset.css);
 @import url(header/header.css);
+@import url(main.css);
 
 :root {
     --branco: #ffffff;
     --cinza-escuro: #1b1b1b;
+    --cinza-claro: #3f3e3e;
+    --fundo-beta: #420000;
+    --box-shadow: 0px 10px 10px 5px #7e7e7e3a;
 }
