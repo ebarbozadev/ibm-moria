@@ -1,11 +1,18 @@
 @import url(reset.css);
 @import url(header/header.css);
+@import url(section/video.css);
 @import url(main.css);
 
 :root {
-    --branco: #ffffff;
+    --branco: #ffeeee;
     --cinza-escuro: #1b1b1b;
+    --cinza-escuro-transparente: rgba(31, 31, 31, 0.959); 
     --cinza-claro: #3f3e3e;
     --fundo-beta: #420000;
+    --fundo-beta-2: #300000;
     --box-shadow: 0px 10px 10px 5px #7e7e7e3a;
+}
+
+body{
+    background-color: var(--cinza-escuro-transparente);
 }

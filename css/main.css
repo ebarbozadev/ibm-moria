@@ -8,8 +8,22 @@ main{
 
 .main__conteudo{
     margin: auto auto;
-    width: 90%;
+    width: 96%;
+    display: flex;
+    justify-content: space-between;
     height: 600px;
     background-color: var(--fundo-beta);
     box-shadow: var(--box-shadow);
+}
+
+.main__conteudo--departamentos, .main__conteudo--exibicao{
+    background-color: var(--fundo-beta-2);
+}
+
+.main__conteudo--departamentos{
+    width: 30%;
+}
+
+.main__conteudo--exibicao{
+    width: 65%;
 }
